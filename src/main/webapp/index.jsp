@@ -8,7 +8,7 @@
     </div>
      <div class="row">
             <div class="col text-center ">
-                <a class="mt-3">Invoices</a>
+                <a href="./invoice.jsp" class="mt-3">Invoices</a>
             </div>
             <div class="col text-center ">
                 <a class="mt-3">Sign-in</a>
