@@ -13,7 +13,7 @@
             </div>
             <div class="text-center mt-3">
                 <!-- Add your signup form here -->
-                <form action="<%= request.getContextPath() %>/signup.jsp" method="post">
+                <form action="<%= request.getContextPath() %>/signup" method="post">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" required>
                     <br>
@@ -26,8 +26,8 @@
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
                     <br>
-                    <label for="password">Re-enter Password:</label>
-                    <input type="password" id="password" name="password" required>
+                    <label for="re-enter-password">Re-enter Password:</label>
+                    <input type="password" id="re-enter-password" name="re-enter-password" required>
                     <br>
                     <button type="submit">Create Account</button>
                 </form>
