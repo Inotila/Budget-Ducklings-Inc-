@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("/index");
         } else {
             // Redirect back to the login page with an error message
-            response.sendRedirect("/login?error=1");
+            response.sendRedirect("/signin?error=1");
         }
     }
 }
