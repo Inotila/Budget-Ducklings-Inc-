@@ -14,11 +14,11 @@ public class LoginServlet extends HttpServlet {
         boolean isAuthenticated = profileDao.authenticateUser(username, password);
 
         if (isAuthenticated) {
-            // Redirect to the home page or perform other actions
+            // Redirect to the home page
             response.sendRedirect("/index");
         } else {
             // Redirect back to the login page with an error message
-            response.sendRedirect("/signin?error=1");
+            response.sendRedirect("/login?error=1");
         }
     }
 }

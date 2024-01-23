@@ -11,7 +11,7 @@ public class ProfileDataAccessObject {
             preparedStatement.setString(1, username);
             preparedStatement.setString(2, password);
             try (ResultSet resultSet = preparedStatement.executeQuery()) {
-                return resultSet.next(); // Returns true if a matching user is found
+                return resultSet.next(); // Return true if a matching user found
             }
         } catch (SQLException e) {
             e.printStackTrace();

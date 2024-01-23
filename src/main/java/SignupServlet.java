@@ -25,7 +25,7 @@ public class SignupServlet extends HttpServlet {
         boolean isProfileCreated = profileDao.createProfile(newProfile);
 
         if (isProfileCreated) {
-            // Redirect to the home page or perform other actions
+            // Redirect to the home page
             response.sendRedirect("/index");
         } else {
             // Redirect back to the signup page with an error message

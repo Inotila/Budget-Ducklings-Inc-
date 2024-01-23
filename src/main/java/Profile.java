@@ -5,8 +5,6 @@ public class Profile {
     private String username;
     private String password;
 
-    // Constructors
-
     // Getter methods
     public int getId() {
         return id;
